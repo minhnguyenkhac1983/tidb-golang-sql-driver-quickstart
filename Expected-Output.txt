@@ -1,0 +1,14 @@
+getPlayer: {ID:test Coins:1 Goods:1}
+countPlayers: 1920
+print 1 player: {ID:00036e38-f55a-4f82-870e-92dfebba305a Coins:2762 Goods:265}
+print 2 player: {ID:0024c8c0-e954-4ee4-a059-cfc443b78b36 Coins:7956 Goods:280}
+print 3 player: {ID:0040ef32-8141-47bf-bb53-57448e66b312 Coins:5298 Goods:5544}
+
+buyGoods:
+    => this trade will fail
+
+buyGoods:
+    => this trade will success
+
+[buyGoods]:
+    'trade success'
